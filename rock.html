@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="paper.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+
+      <header>
+        <h1>Rock Paper Scissor</h1>
+      </header>
+      <div id="inside">
+
+
+        <p id="instruction">Select your ammo:</p>
+
+        <div class="choice">
+
+          <div class="select-choice" id="rock">
+            <img class="img-weapon" src="rock1.png" alt="rock">
+          </div>
+
+          <div class="select-choice" id="paper">
+            <img class="img-weapon" src="paper1.png" alt="paper">
+          </div>
+
+          <div class="select-choice" id="scissors">
+            <img class="img-weapon" src="scissor1.png" alt="scissors">
+          </div>
+
+        </div>
+
+
+        <div class="result">
+          
+            <p id="message">Who will win the first game?</p>
+
+        <div class="scores">
+          <p class="total-score">Your score: <span id="user-score">0</span></p>
+          <p class="total-score">Computer's score: <span id="computer-score">0</span></p>
+          <p class="total-score">Draws: <span id="draws">0</span></p>
+
+          <button id="reset-button">Reset</button>
+        </div>
+
+        </div>
+
+    </div>
+
+      <footer>
+        <p>By Atharva Kulkarni</p>
+        <p>
+          <a 
+          href="https://github.com/AtharvaKulkarniIT" target="_blank"><i class="fab fa-github-alt fa-2x" alt="Github icon"></i></a>
+            </p>
+      </footer>
+
+    </div>
+    <script type="text/javascript" src="scissor.js"></script>
+  </body>
+</html>

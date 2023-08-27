@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900');
+
+html{
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-size: 1.2rem;
+  background-image: linear-gradient(180deg , #70c6e3, #19c045);
+}
+
+.container {
+  padding: 2vh 0;
+}
+
+#inside {
+  margin: auto;
+  width: 45%;
+  height: 50%;
+  border-radius: 25px;
+  padding: 2vh 0;
+}
+
+h1 {
+  font-size: 3.2rem;
+  margin: 1vh 0;
+}
+
+p {
+  color: #000000;
+}
+
+hr {
+  width: 50%;
+}
+
+#instruction {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+.img-weapon {
+  max-width: 120px;
+  height: auto
+}
+
+.choice {
+  margin: auto;
+}
+
+.select-choice {
+  display: inline-block;
+  border: 5px solid #000000;
+  border-radius: 80px;
+  margin: 1rem;
+  transition: all 0.6s ease;
+}
+
+#rock:hover, #paper:hover, #scissors:hover {
+  background-color: #cf6807d0;
+  cursor: pointer;
+  box-shadow: 5px 7px 8px #888888;
+
+}
+
+#rock {
+  background-color: #FFEE88;
+}
+
+#paper {
+  background-color: #F40076;
+}
+
+#scissors {
+  background-color: #75C9C8;
+}
+
+.result {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.win-border {
+  border: 5px solid #3bff00;
+  box-shadow: 2px 2px 12px #3e3e3e;
+}
+
+.lose-border {
+  border: 5px solid #ff0000;
+  box-shadow: 2px 2px 12px #3e3e3e;
+}
+
+.tie-border {
+  border: 5px solid #4545a3;
+  box-shadow: 2px 2px 12px #3e3e3e;
+}
+
+.scores {
+  background-color: #2eadfe;
+  border-radius: 25px;
+  opacity:0.5;
+  border: 1px groove black;
+}
+
+.scores>p {
+  color: #FFFFFF;
+  font-size: 1.7rem;
+  font-weight: 600;
+  padding: 0.5rem;
+  margin: 0;
+}
+
+#reset-button {
+  border-radius: 10px;
+  display: inline-block;
+  cursor: pointer;
+  color: #000000;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.5vh 0.5vw;
+  text-decoration: none;
+  margin: .2rem;
+  outline: none;
+}
+
+#reset-button:active {
+  position: relative;
+  top: 1px;
+}
+
+footer {
+  font-size: 0.7rem;
+  line-height: 0.3rem;
+  padding-top: 2vh;
+}
+
+.fab {
+  color: #000000;
+  margin: 0 .5%;
+}
