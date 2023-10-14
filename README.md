@@ -4,6 +4,7 @@
 ## Preview
 ![image](https://github.com/AtharvaKulkarniIT/Rock-Paper-Scissor/assets/122991006/2bdb9562-bb98-4e0c-8872-dbef282c9060)
 
+## Demo link : https://atharvakulkarniit.github.io/Rock-Paper-Scissor/
 This is a simple Rock, Paper, Scissors game built with HTML, CSS, and JavaScript. You can play this classic hand game against the computer. The game is fully responsive and can be played on both desktop and mobile devices.
 
 
