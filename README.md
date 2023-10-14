@@ -36,7 +36,7 @@ That's it! You don't need to install any additional dependencies.
 
 ## Usage
 
-Simply open the `rock.html` file in your web browser. You can start playing the game immediately. 
+Simply open the `index.html` file in your web browser. You can start playing the game immediately. 
 
 ## Contributing
 
