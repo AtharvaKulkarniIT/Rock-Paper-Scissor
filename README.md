@@ -25,8 +25,6 @@ To run the game locally, follow these steps:
    ```bash
    git clone https://github.com/AtharvaKulkarniIT/Rock-Paper-Scissor.git
    
-
-
 That's it! You don't need to install any additional dependencies.
 
 ## Usage
